@@ -1,0 +1,24 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background: linear-gradient(#27ae60 20%,#2ecc71);
+}
+ul{
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+li{
+    display: inline-block;
+    flex-direction: row;
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+    transition: 0.5s;
+}
+li:hover{
+    transform: scale(1.2);
+}
