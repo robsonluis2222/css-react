@@ -2,8 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
-    background: linear-gradient(#27ae60 20%,#2ecc71);
+    padding: 0;
+    height: 100px;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-position:center;
+    filter: brightness(90%);
 }
 ul{
     position: absolute;
@@ -21,4 +25,12 @@ li{
 }
 li:hover{
     transform: scale(1.2);
+}
+img{
+    position: relative;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 160px;
+    height: 80px;
 }

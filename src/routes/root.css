@@ -1,0 +1,104 @@
+.pai{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weather-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 1.5s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 29px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 29px -9px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 29px -9px rgba(0,0,0,0.75);
+}
+.content-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 20%;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+.temp-div{
+    display: 	flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.temperature{
+    font-size: 35px;
+}
+.m-c-div{
+    display: 	flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.m-c{
+    font-size: 30px;
+}
+.escop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.rain-div-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+    flex-direction: column;
+}
+.rain-div-s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+    flex-direction: column;
+}
+#p{
+    background-color: #ffeaa7;
+}
+#s{
+    background-color: #74b9ff;
+}
+#t{
+    background-color: #b2bec3;
+}
+#cp{
+    background-color: #fdcb6e;
+}
+#cs{
+    background-color: #0984e3;
+}
+#ct{
+    background-color: #2d3436;
+    
+}
+.element:hover{
+    transform: rotateY(30deg) rotateX(10deg) scale(1.2);
+    -webkit-box-shadow: -28px 9px 29px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -28px 9px 29px -9px rgba(0,0,0,0.75);
+    box-shadow: -28px 9px 29px -9px rgba(0,0,0,0.75);
+}
